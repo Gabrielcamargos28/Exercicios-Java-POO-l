@@ -49,7 +49,7 @@ public class Fatura {
     }
 
     public void setValorUnitario(double valorUnitario) {
-        if(valorUnitario != 5.00){
+        if(valorUnitario > 5.00){
             this.valorUnitario = 5.00;
         }else{
             this.valorUnitario = valorUnitario;
