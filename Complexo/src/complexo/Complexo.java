@@ -51,7 +51,7 @@ public class Complexo {
         double somaReal = this.numeroReal1 + this.numeroReal2;
         double somaImaginario = this.numeroImaginario1 + numeroImaginario2;
         
-        return "("+(somaReal + somaImaginario)+")";
+        return "soma: "+ somaReal +" + "+ somaImaginario+"i "+"= "+ (somaReal + somaImaginario)+"i";
     }
     
 }
