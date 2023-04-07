@@ -69,8 +69,16 @@ public class Principal {
         for(int i =0;i<auxAves.size();i++){
             System.out.println(ZooPatrocinio.getAves().get(i));
         }
-        auxAves.add("Pelicano");
-    
+        //auxAves.add("Pelicano");
+        if(!auxAves.contains("Pelicano")){
+            auxAves.add("Pelicano");
+        }else{
+            auxAves.remove("Pelicano");
+        }
+        System.out.println("Aves: ");
+        for(int i =0;i<auxAves.size();i++){
+            System.out.println(ZooPatrocinio.getAves().get(i));
+        }
     
     
     
